@@ -8,7 +8,7 @@
 class String_Database
 {
 private:
-	std::mutex mutex;
+	std::mutex m;
 	std::vector<String_Data> myStrings;
 	std::vector<String_Data>::iterator  myStringsIter;
 
